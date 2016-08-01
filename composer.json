@@ -1,15 +1,15 @@
 {
-    "name": "lullabot/amp",
-    "description": "A set of useful classes and utilities to convert html to AMP html (See https://www.ampproject.org/)",
+    "name": "vortexgin/amp-library",
+    "description": "A set of useful classes and utilities to convert html to AMP html (See https://www.ampproject.org/). Fork version from lullabot/amp",
     "authors": [
         {
-            "name": "Sidharth Kshatriya",
-            "email": "sid.kshatriya@gmail.com"
+            "name": "Gin Vortex",
+            "email": "vortexgin@gmail.com"
         }
     ],
     "license": "Apache-2.0",
-    "keywords": ["Drupal", "AMP", "mobile"],
-    "homepage": "https://github.com/Lullabot/amp-library",
+    "keywords": ["Symfony", "AMP", "mobile"],
+    "homepage": "https://github.com/vortexgin/amp-library",
     "require" : {
         "php" : ">=5.5.0",
         "querypath/QueryPath": ">=3.0.4",
@@ -18,7 +18,7 @@
         "marc1706/fast-image-size": "1.*",
         "masterminds/html5": "^2.2.0",
         "sabberworm/php-css-parser": "^8.0.0",
-        "guzzlehttp/guzzle": "~6.1"
+        "guzzlehttp/guzzle": "~5.0"
     },
     "autoload": {
         "classmap": ["src/Spec/validator-generated.php"],
